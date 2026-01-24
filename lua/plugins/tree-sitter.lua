@@ -11,9 +11,13 @@ return {
 	    autotage = { enable = true},
 	    ensure_installed = {
 		"lua",
-		"python"
+		"python",
+		"c",
+		"javascript",
+		"html"
 	    },
-	    auto_install = false,
+	    sync_install = false,
+	    auto_install = true,
 	})
     end
 }
