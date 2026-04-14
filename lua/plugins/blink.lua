@@ -43,7 +43,7 @@ return {{
 	providers = {
       lsp = {
         async = true,
-        timeout_ms = 300,   -- default example is 2000ms; lower keeps UI snappy
+        timeout_ms = 1000,   -- default example is 2000ms; lower keeps UI snappy
         max_items = 50,
         min_keyword_length = 2,
       },
